@@ -23,15 +23,16 @@ project_2_page = st.Page(
 
 pg = st.navigation(
     {
-        "info":[about_page],
+        "Info":[about_page],
         "Projects":[project_1_page, project_2_page],
     }
 )
 
 # SHARED ON ALL PAGES
 
-st.logo("assets/web services.png")
-st.sidebar.text("Made by Bashar")
+st.logo("assets/pzpro.PNG")
+st.sidebar.markdown("Made by Bashar")
 
 # Run
 pg.run()
+
